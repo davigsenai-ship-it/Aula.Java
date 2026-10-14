@@ -1,4 +1,4 @@
-package lista_de_exercicios;
+package aula_02;
 
 public class Exercicio2 {
     static void main() {
