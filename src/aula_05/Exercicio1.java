@@ -1,5 +1,4 @@
-package aula_02;
-
+package aula_05;
 import java.util.Scanner;
 
 public class Exercicio1 {
@@ -9,10 +8,11 @@ public class Exercicio1 {
         System.out.println("Digite sua Idade: ");
         int idade = scanner.nextInt();
 
-        System.out.println("Digite sua Altura: ");
-        float altura = scanner.nextFloat();
-
-        System.out.println("Digite seu peso: ");
-        double peso = scanner.nextDouble();
+        if (idade >= 18){
+            System.out.println("Acesso Liberado");
+        } else {
+            System.out.println("Acesso Negado");
+        }
+        scanner.close();
     }
 }
