@@ -15,7 +15,6 @@ public class Exercicio10 {
         System.out.println("3 - Libra");
         int codigo = scanner.nextInt();
 
-        // Taxas de câmbio de exemplo (podem ser ajustadas conforme a cotação pretendida)
         double cotacaoDolar = 5.00;
         double cotacaoEuro = 5.50;
         double cotacaoLibra = 6.50;

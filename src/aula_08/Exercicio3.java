@@ -8,6 +8,7 @@ public class Exercicio3 {
         int numero = scanner.nextInt();
 
         dobrar(numero);
+        scanner.close();
     }
     static void dobrar(int numero){
 

@@ -10,6 +10,7 @@ public class Exercicio2 {
         int numero2 = scanner.nextInt();
 
         somar(numero1, numero2);
+        scanner.close();
     }
     static void somar(int numero1, int numero2){
         int soma = numero1 + numero2;

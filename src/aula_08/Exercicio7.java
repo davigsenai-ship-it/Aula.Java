@@ -13,7 +13,9 @@ public class Exercicio7 {
         int num3 = scanner.nextInt();
 
         System.out.println("O maior numero é: "+maiorNumero(num1,num2,num3));
+        scanner.close();
     }
+
 
     static int maiorNumero(int num1, int num2, int num3) {
         int maior = num1;

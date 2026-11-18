@@ -12,9 +12,11 @@ public class Exemplo {
         int idade = scanner.nextInt();
 
         imprimeDadosPessoais(idade,nome);
+        scanner.close();
     }
     public static void imprimeDadosPessoais(int idade, String nome){
         System.out.println("Nome: "+nome);
         System.out.println("Idade: "+idade);
+
     }
 }

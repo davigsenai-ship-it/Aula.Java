@@ -9,6 +9,7 @@ public class Exercicio1 {
         String nome = scanner.nextLine();
 
         imprimirSaudacao(nome);
+        scanner.close();
     }
     static void imprimirSaudacao(String nome){
         System.out.println(nome+", Bem-vindo ao sistema!");
